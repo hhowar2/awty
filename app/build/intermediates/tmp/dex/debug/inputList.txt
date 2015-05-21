@@ -1,0 +1,5 @@
+/Users/iguest/Desktop/awty/app/build/intermediates/classes/debug
+/Users/iguest/Desktop/awty/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-4af7d6332c26af2f77965e6927554b935e27e503.jar
+/Users/iguest/Desktop/awty/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-5acdf70a6d665884235e841af87d2d66d936f5fd.jar
+/Users/iguest/Desktop/awty/app/build/intermediates/pre-dexed/debug/classes-bca193f6a4e31168c0d45bac38986d0a01c04fa8.jar
+/Users/iguest/Desktop/awty/app/build/intermediates/pre-dexed/debug/classes-52a9454e0625c600be7bcf1b1318f7cbb2a3396b.jar

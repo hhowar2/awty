@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hhowar2.washington.edu.awty.test">
+
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="21" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+                     android:targetPackage="hhowar2.washington.edu.awty"
+                     android:handleProfiling="false"
+                     android:functionalTest="false"
+                     android:label="Tests for hhowar2.washington.edu.awty"/>
+</manifest>
