@@ -67,12 +67,14 @@ public class MainActivity extends ActionBarActivity {
                 int minutes = Integer.parseInt(minutesField.getText().toString());
                 Calendar cal = Calendar.getInstance();
                 String message = messageField.getText().toString();
+                String phone = phoneNumber.getText().toString();
 
                 AlarmManager alarm = (AlarmManager) getSystemService(Context.ALARM_SERVICE);
                 Intent intent = new Intent();
                 intent.setAction("com.tutorialspoint.CUSTOM_INTENT");
 
                 intent.putExtra("message", message);
+                intent.putExtra("phoneNumber", phone);
                 PendingIntent pintent = PendingIntent.getBroadcast(MainActivity.this, 0, intent, 0);
 
                 Button b = (Button)v;
